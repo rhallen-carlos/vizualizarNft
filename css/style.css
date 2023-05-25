@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;;
+}
+
+:root{
+  --azulSuave:hsl(215, 51%, 70%);
+  --ciano: hsl(178, 100%, 50%);
+  --branco: hsl(0, 0%, 100%);
+
+  --azulCorpo: hsl(217, 54%, 11%);
+  --azulCard: hsl(216, 50%, 16%);
+  --azulSombra: hsl(215, 32%, 27%);
+}
+
+
+.conteiner{
+  width: 100%;
+  min-height: 100vh;
+  background: var(--azulCorpo);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.geral{
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background: var(--azulCard);
+  border-radius: 10px;
+}
+
+.geralImgNft{
+  width:300px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.geralImgNft:hover{
+  opacity: 0.5;
+}
+
+/*
+
+.imgView{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  background: var(--ciano);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+*/
+.geralDescricaoH1{
+  color: var(--branco);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.geralDescricaoH1:hover{
+  color: var(--ciano);
+}
+
+.geralDescricaoP{
+  margin-top: 20px;
+  color: var(--azulSuave);
+  font-size: 18px;
+}
+
+.geralInformacao{
+  display: flex;
+  justify-content: space-between;margin-top: 20px;
+  border-bottom: 1px solid var(--azulSuave);
+  padding-bottom: 20px;
+}
+
+.conteudoEsquerda{
+  display: flex;
+  color: var(--ciano);
+}
+
+.conteudoEsquerda img{
+  margin-right: 10px; 
+}
+
+.conteudoDireita{
+  display: flex;
+  color: var(--azulSuave);
+}
+
+.conteudoDireita img{
+  margin-right: 10px;
+}
+
+.perfilCriador{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.perfilCriadorImg{
+  width: 40px;
+  border: 2px solid var(--branco);
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.perfilCriadorDescricao{
+  color: var(--azulSuave);
+}
+
+.nomePerfil{
+  color: var(--branco);
+  cursor: pointer;
+}
+
+.nomePerfil:hover{
+  color: var(--ciano);
+}
