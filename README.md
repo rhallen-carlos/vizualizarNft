@@ -1,2 +1,2 @@
 # vizualizarNft
- Card de visaulização de ntf
+ Card de visaulização de nft
